@@ -22,6 +22,9 @@ target 'SC30' do
   pod 'WebViewJavascriptBridge', '~> 6.0.2'
   pod 'MSWeakTimer', '~> 1.1.0'
   
+  pod 'LBXScan/LBXNative', '~> 2.0'
+  pod 'LBXScan/UI', '~> 2.0'
+  
   pod 'Onboard', '~> 2.3.1'
   pod 'FDFullscreenPopGesture', '~> 1.1'
   pod 'LTNavigationBar', '~> 2.1.9'

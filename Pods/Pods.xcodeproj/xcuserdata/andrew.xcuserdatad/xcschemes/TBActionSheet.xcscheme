@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FF8504D0272F405CA912CA90E903D1FB'
+               BlueprintIdentifier = '3382BE983CC71F519A247DB9B7936261'
                BlueprintName = 'TBActionSheet'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TBActionSheet.framework'>

@@ -30,6 +30,8 @@ PODS:
   - HWWeakTimer (1.0)
   - IQKeyboardManager (4.0.10)
   - JVFloatLabeledTextField (1.1.1)
+  - LBXScan/LBXNative (2.0)
+  - LBXScan/UI (2.0)
   - LTNavigationBar (2.1.9)
   - Mantle (2.1.0):
     - Mantle/extobjc (= 2.1.0)
@@ -69,6 +71,8 @@ DEPENDENCIES:
   - HWWeakTimer (~> 1.0)
   - IQKeyboardManager (~> 4.0.8)
   - JVFloatLabeledTextField (~> 1.1.1)
+  - LBXScan/LBXNative (~> 2.0)
+  - LBXScan/UI (~> 2.0)
   - LTNavigationBar (~> 2.1.9)
   - Mantle (~> 2.1.0)
   - Masonry (~> 1.0.2)
@@ -95,6 +99,7 @@ SPEC CHECKSUMS:
   HWWeakTimer: 79488095ef2dd8937f94b676d12bd5fa954486e6
   IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
   JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
+  LBXScan: 458f4b7a6688504a1415dc4a0f9822100e099f66
   LTNavigationBar: c278785bed344862e18146b5f06792932e4feacc
   Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
@@ -113,6 +118,6 @@ SPEC CHECKSUMS:
   WebViewJavascriptBridge: 791ee0e26d1bf15efe5fb7fb9666a71a19b89d77
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: eee2be15c7b342a250e20d405838acf6280e04c1
+PODFILE CHECKSUM: ae7e20cb87085a6f330337aee8b8a04eae20593c
 
 COCOAPODS: 1.1.1

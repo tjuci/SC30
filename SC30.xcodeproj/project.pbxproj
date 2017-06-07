@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		49FD2D4D1EE7C8770050E2E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD2D4C1EE7C8770050E2E4 /* main.m */; };
-		49FD2D501EE7C8770050E2E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD2D4F1EE7C8770050E2E4 /* AppDelegate.m */; };
 		49FD2D531EE7C8770050E2E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD2D521EE7C8770050E2E4 /* ViewController.m */; };
 		49FD2D561EE7C8770050E2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FD2D541EE7C8770050E2E4 /* Main.storyboard */; };
 		49FD2D581EE7C8770050E2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FD2D571EE7C8770050E2E4 /* Assets.xcassets */; };
 		49FD2D5B1EE7C8770050E2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FD2D591EE7C8770050E2E4 /* LaunchScreen.storyboard */; };
 		49FD2D661EE7C8770050E2E4 /* SC30Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD2D651EE7C8770050E2E4 /* SC30Tests.m */; };
 		49FD2D711EE7C8770050E2E4 /* SC30UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD2D701EE7C8770050E2E4 /* SC30UITests.m */; };
+		49FD2D861EE7D2130050E2E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FD2D801EE7D2130050E2E4 /* AppDelegate.m */; };
 		6791AE1D15F20A9AB65BE598 /* Pods_SC30.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CC7684C58C9AB238907683 /* Pods_SC30.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +39,6 @@
 		1DAC9FA742DA1A1DC2DD41DB /* Pods-SC30.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SC30.release.xcconfig"; path = "Pods/Target Support Files/Pods-SC30/Pods-SC30.release.xcconfig"; sourceTree = "<group>"; };
 		49FD2D481EE7C8770050E2E4 /* SC30.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SC30.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FD2D4C1EE7C8770050E2E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49FD2D4E1EE7C8770050E2E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		49FD2D4F1EE7C8770050E2E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		49FD2D511EE7C8770050E2E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		49FD2D521EE7C8770050E2E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		49FD2D551EE7C8770050E2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		49FD2D6C1EE7C8770050E2E4 /* SC30UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SC30UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FD2D701EE7C8770050E2E4 /* SC30UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SC30UITests.m; sourceTree = "<group>"; };
 		49FD2D721EE7C8770050E2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FD2D7F1EE7D2130050E2E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49FD2D801EE7D2130050E2E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		72CC7684C58C9AB238907683 /* Pods_SC30.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SC30.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0377B73E99AB9BDC671BE9 /* Pods-SC30.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SC30.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SC30/Pods-SC30.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,8 +108,7 @@
 		49FD2D4A1EE7C8770050E2E4 /* SC30 */ = {
 			isa = PBXGroup;
 			children = (
-				49FD2D4E1EE7C8770050E2E4 /* AppDelegate.h */,
-				49FD2D4F1EE7C8770050E2E4 /* AppDelegate.m */,
+				49FD2D7E1EE7D2130050E2E4 /* Core */,
 				49FD2D511EE7C8770050E2E4 /* ViewController.h */,
 				49FD2D521EE7C8770050E2E4 /* ViewController.m */,
 				49FD2D541EE7C8770050E2E4 /* Main.storyboard */,
@@ -145,6 +144,55 @@
 				49FD2D721EE7C8770050E2E4 /* Info.plist */,
 			);
 			path = SC30UITests;
+			sourceTree = "<group>";
+		};
+		49FD2D7E1EE7D2130050E2E4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				49FD2D7F1EE7D2130050E2E4 /* AppDelegate.h */,
+				49FD2D801EE7D2130050E2E4 /* AppDelegate.m */,
+				49FD2D811EE7D2130050E2E4 /* Helpers */,
+				49FD2D821EE7D2130050E2E4 /* Managers */,
+				49FD2D831EE7D2130050E2E4 /* Models */,
+				49FD2D841EE7D2130050E2E4 /* Vendors */,
+				49FD2D851EE7D2130050E2E4 /* ViewControllers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		49FD2D811EE7D2130050E2E4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		49FD2D821EE7D2130050E2E4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		49FD2D831EE7D2130050E2E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49FD2D841EE7D2130050E2E4 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		49FD2D851EE7D2130050E2E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		8E70492B19B6B51C596EA45F /* Pods */ = {
@@ -352,8 +400,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FD2D531EE7C8770050E2E4 /* ViewController.m in Sources */,
-				49FD2D501EE7C8770050E2E4 /* AppDelegate.m in Sources */,
 				49FD2D4D1EE7C8770050E2E4 /* main.m in Sources */,
+				49FD2D861EE7D2130050E2E4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +643,7 @@
 				49FD2D771EE7C8770050E2E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49FD2D781EE7C8770050E2E4 /* Build configuration list for PBXNativeTarget "SC30Tests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +652,7 @@
 				49FD2D7A1EE7C8770050E2E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49FD2D7B1EE7C8770050E2E4 /* Build configuration list for PBXNativeTarget "SC30UITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +661,7 @@
 				49FD2D7D1EE7C8770050E2E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
